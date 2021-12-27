@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B82ECE102779F3E500E4AEED /* DSTestService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B82ECE0F2779F3E500E4AEED /* DSTestService.swift */; };
 		B8DA482527625BAA00593741 /* DocScanner.docc in Sources */ = {isa = PBXBuildFile; fileRef = B8DA482427625BAA00593741 /* DocScanner.docc */; };
 		B8DA482B27625BAB00593741 /* DocScanner.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B8DA482027625BAA00593741 /* DocScanner.framework */; };
 		B8DA483027625BAB00593741 /* DocScannerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8DA482F27625BAB00593741 /* DocScannerTests.swift */; };
@@ -25,6 +26,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		B82ECE0F2779F3E500E4AEED /* DSTestService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DSTestService.swift; sourceTree = "<group>"; };
 		B8DA482027625BAA00593741 /* DocScanner.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = DocScanner.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B8DA482327625BAA00593741 /* DocScanner.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DocScanner.h; sourceTree = "<group>"; };
 		B8DA482427625BAA00593741 /* DocScanner.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = DocScanner.docc; sourceTree = "<group>"; };
@@ -52,6 +54,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B82ECE0E2779F3BE00E4AEED /* PublicServices */ = {
+			isa = PBXGroup;
+			children = (
+				B82ECE0F2779F3E500E4AEED /* DSTestService.swift */,
+			);
+			path = PublicServices;
+			sourceTree = "<group>";
+		};
 		B8DA481627625BAA00593741 = {
 			isa = PBXGroup;
 			children = (
@@ -73,6 +83,7 @@
 		B8DA482227625BAA00593741 /* DocScanner */ = {
 			isa = PBXGroup;
 			children = (
+				B82ECE0E2779F3BE00E4AEED /* PublicServices */,
 				B8DA483A2762605300593741 /* Menu */,
 				B8DA482327625BAA00593741 /* DocScanner.h */,
 				B8DA482427625BAA00593741 /* DocScanner.docc */,
@@ -207,6 +218,7 @@
 			files = (
 				B8DA482527625BAA00593741 /* DocScanner.docc in Sources */,
 				B8DA483C2762607400593741 /* MenuViewController.swift in Sources */,
+				B82ECE102779F3E500E4AEED /* DSTestService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
